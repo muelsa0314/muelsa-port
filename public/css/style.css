@@ -208,8 +208,13 @@ span b{
     text-align: center;
     line-height: 50px;
     border-radius: 25px;
-    background:#525358;
     transition: 1s;
+}
+
+.button i{
+    width: 30px;
+    color: white;
+    height: 30px;
 }
 
 .button:hover{
@@ -312,16 +317,21 @@ span b{
 
 .plus a{
     font-size: 40px;
-    border: 2px solid white;
     padding: 0px 12px 0px 12px;
-    border-radius: 30px;
     position: relative;
     right: 0;
     margin-left:30px;;
 }
-.plus a:hover{
-    color: red;
+.plus a:hover i{
+    color: #ccc;
     transform: scale(1.2);
+    transition: 1s;
+}
+
+.portSingleInfoMore i{
+    width: 30px;
+    color: white;
+    transition: 1s;
 }
 
 .portSingleInfoMore a{
