@@ -121,8 +121,8 @@ ul li:last-child::after{
  .conteudo{
     padding: 40px;
     display: flex;
-  flex-wrap: wrap;
-  background: #3e3f46;
+    flex-wrap: wrap;
+    background: #3e3f46;
 }
 
 .author{
@@ -131,10 +131,13 @@ ul li:last-child::after{
     flex: 0.5;
 }
 
-.author .img img{
+.author .img{
     width: 150px;
     height: 150px;
     border-radius: 75px;
+    background-image: url('../img/me.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .info-author span{
